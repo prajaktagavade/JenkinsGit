@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-09T06:06:33Z" name="Default Suite" finished-at="2022-08-09T06:06:39Z" duration-ms="5345">
+    <groups>
+    </groups>
+    <test started-at="2022-08-09T06:06:33Z" name="DDFramework" finished-at="2022-08-09T06:06:39Z" duration-ms="5345">
+      <class name="com.framework.tests.SampleTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.framework.tests.SampleTest@146044d7]" started-at="2022-08-08T23:06:33Z" name="beforeMethod" finished-at="2022-08-08T23:06:35Z" duration-ms="1631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="sampleTest1()[pri:0, instance:com.framework.tests.SampleTest@146044d7]" started-at="2022-08-08T23:06:35Z" name="sampleTest1" finished-at="2022-08-08T23:06:38Z" duration-ms="3569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest1 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.framework.tests.SampleTest@146044d7]" started-at="2022-08-08T23:06:38Z" name="cleanUp" finished-at="2022-08-08T23:06:39Z" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.framework.tests.SampleTest -->
+    </test> <!-- DDFramework -->
+  </suite> <!-- Default Suite -->
+</testng-results>

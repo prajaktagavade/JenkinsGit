@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Tests" parallel="methods" thread-count="4">
+    <parameter name="product_name" value="iphone"></parameter>
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+    <test name="Sanity Tests">
+        <classes>
+            <class name="com.framework.tests.AmazonTests"/>
+        </classes>
+    </test> <!-- DDFramework -->
+</suite>

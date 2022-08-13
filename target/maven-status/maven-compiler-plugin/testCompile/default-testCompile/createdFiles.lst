@@ -1,0 +1,12 @@
+com/framework/pages/GoogleHomePage.class
+com/framework/pages/altro/AltroLoginPage.class
+com/framework/pages/GoogleSearchResultPage.class
+com/framework/pages/altro/AltroHomePage.class
+com/framework/tests/AltoroBankTest.class
+com/framework/tests/AltroDataProvider.class
+com/framework/tests/AmazonTests.class
+com/framework/pages/altro/userHomePage.class
+com/framework/pages/altro/AccountHistoryPage.class
+com/framework/pages/AmazonSearchResultPage.class
+com/framework/tests/SampleTest.class
+com/framework/pages/AmazonHomePage.class
